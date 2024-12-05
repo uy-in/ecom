@@ -1,0 +1,56 @@
+src/
+│
+├── components/           # Reusable components
+│   ├── Button/
+│   │   ├── Button.js
+│   │   └── Button.css
+│   ├── Navbar/
+│   │   ├── Navbar.js
+│   │   └── Navbar.css
+│   ├── Footer/
+│   │   ├── Footer.js
+│   │   └── Footer.css
+│   ├── ProductCard/
+│   │   ├── ProductCard.js
+│   │   └── ProductCard.css
+│   └── ...
+│
+├── pages/                # Page-specific components
+│   ├── Home/
+│   │   ├── Home.js
+│   │   ├── Home.css
+│   │   └── sections/
+│   │       ├── Hero.js
+│   │       ├── Categories.js
+│   │       └── Testimonials.js
+│   ├── Login/
+│   │   ├── Login.js
+│   │   ├── Login.css
+│   │   └── Register.js
+│   ├── Dashboard/
+│   │   ├── BuyerDashboard.js
+│   │   ├── SellerDashboard.js
+│   │   └── AdminDashboard.js
+│   └── ...
+│
+├── services/             # API calls and service logic
+│   ├── authService.js
+│   ├── productService.js
+│   ├── orderService.js
+│   └── ...
+│
+├── context/              # Global state management (e.g., Context API)
+│   ├── AuthContext.js
+│   ├── CartContext.js
+│   └── ...
+│
+├── utils/                # Utility functions
+│   ├── formatCurrency.js
+│   ├── validateInput.js
+│   └── ...
+│
+├── App.js                # Main app component
+├── index.js              # Entry point
+└── styles/               # Global styles
+    ├── variables.css
+    └── global.css
