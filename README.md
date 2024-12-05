@@ -88,8 +88,9 @@ ecom/
 └── ...
 ```
 ### **6. Live Demo**
-    You can access a live demo of the platform [here](https://ujjawalecom.netlify.app/).
-
+---
+- **You can access the live demo of this at **: [https://ujjawalecom.netlify.app](https://ujjawalecom.netlify.app)
+---
 ### **7. Built With***
 - **Frontend**: React.js, TailwindCSS
 - **Backend**: Node.js Express.js MongoDB
@@ -102,7 +103,7 @@ thank you for checking out this project! 🎉. Feel free to explore, use, and sh
 If you have any questions, feel free to reach out or open an issue. Happy coding! 🚀
 
 ---
-- **GitHub**: [visit](https://github.com/uy-in)
-- **LinkedIn**: [visit](https://www.linkedin.com/in/uyin)
-- **Email**: [visit](mailto:uy2110101@gmail.com)
+- **GitHub**: [https://github.com/uy-in](https://github.com/uy-in)
+- **LinkedIn**: [https://www.linkedin.com/in/uyin](https://www.linkedin.com/in/uyin)
+- **Email**: [mailto:uy2110101@gmail.com](mailto:uy2110101@gmail.com)
 ---
