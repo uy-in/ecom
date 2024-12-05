@@ -24,8 +24,8 @@ Follow these steps to get the project up and running on your local machine:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your-username/ecommerce-platform.git
-cd ecommerce-platform
+git clone https://github.com/uy-in/ecom.git
+cd ecom
 ```
 
 ### **2. Frontend Setup**
@@ -33,4 +33,76 @@ Navigate to the frontend directory:
 ```bash
 cd frontend
 ```
+Install dependencies:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm start
+```
+Open http://localhost:3000 in your browser.
+### **3. Backend Setup**
+Navigate to the backend directory:
+```bash
+cd ../backend
+```
+Install dependencies:
+```bash
+npm install
+```
+Create a .env file in the backend folder with the following variables:
+```bash
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+AWS_ACCESS_KEY_ID=your_aws_access_key
+AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+```
+Start the server:
+```bash
+npm run dev
+```
+### **4. Combined Start**
+To run both frontend and backend together (optional), you can use tools like concurrently or Docker Compose.
 
+### **5. Project Structure**
+The project is structured to ensure scalability and maintainability. Structure:
+```bash
+ecom/
+├── frontend/          # React.js for the UI
+│   ├── src/
+│   │   ├── components/  # Reusable components
+│   │   ├── pages/       # Page components
+│   │   ├── services/    # API interaction logic
+│   │   ├── context/     # Global state management
+│   │   └── ...
+├── backend/           # Node.js with Express.js
+│   ├── models/        # MongoDB schemas
+│   ├── routes/        # API routes
+│   ├── controllers/   # Business logic
+│   ├── middlewares/   # Middleware functions
+│   ├── config/        # Config files (e.g., AWS setup)
+│   └── ...
+├── .gitignore         # Git ignore file
+├── README.md          # Project documentation
+└── ...
+```
+### **6. Live Demo**
+    You can access a live demo of the platform [here](https://ujjawalecom.netlify.app/).
+
+### **7. Built With***
+- **Frontend**: React.js, TailwindCSS
+- **Backend**: Node.js Express.js MongoDB
+- **Cloud Services**: AWS (S3, SES, QuickSight, CloudWatch)
+- **Authentication**: JSON Web Tokens (JWT), AWS Cognito
+- **Deployment**: Netlify, AWS Elastic Beanstalk, S3, Lambda
+
+### **Thank you for visiting!**
+thank you for checking out this project! 🎉. Feel free to explore, use, and share this project. If you found it helpful or inspiring, don’t forget to give it a ⭐ on GitHub! 😊
+If you have any questions, feel free to reach out or open an issue. Happy coding! 🚀
+
+---
+- **GitHub**: [visit](https://github.com/uy-in)
+- **LinkedIn**: [visit](https://www.linkedin.com/in/uyin)
+- **Email**: [visit](mailto:uy2110101@gmail.com)
+---
