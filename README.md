@@ -103,7 +103,8 @@ thank you for checking out this project! 🎉. Feel free to explore, use, and sh
 If you have any questions, feel free to reach out or open an issue. Happy coding! 🚀
 
 ---
+- **Talk to me**: [fix a meeting now](https://calendly.com/uyin/talk)
 - **GitHub**: [https://github.com/uy-in](https://github.com/uy-in)
 - **LinkedIn**: [https://www.linkedin.com/in/uyin](https://www.linkedin.com/in/uyin)
-- **Email**: [mailto:uy2110101@gmail.com](mailto:uy2110101@gmail.com)
+- **Email**: [uy2110101@gmail.com](mailto:uy2110101@gmail.com)
 ---
