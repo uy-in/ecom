@@ -1,6 +1,18 @@
-import "./app.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import { routes } from "./routes";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={<route.element />} />
+        ))}
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
